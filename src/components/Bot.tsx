@@ -1608,12 +1608,6 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
               />
             )}
           </div>
-          <Badge
-            footer={props.footer}
-            badgeBackgroundColor={props.badgeBackgroundColor}
-            poweredByTextColor={props.poweredByTextColor}
-            botContainer={botContainer}
-          />
         </div>
       </div>
       {sourcePopupOpen() && <Popup isOpen={sourcePopupOpen()} value={sourcePopupSrc()} onClose={() => setSourcePopupOpen(false)} />}
